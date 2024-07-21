@@ -4,6 +4,6 @@ print("Immutable tuple: " , immutable_var)
 #print(immutable_var) # Изменить НЕЛЬЗЯ -потому что  элементы кортежа не могут быть изменены после того, как они были назначены
 
 mutable_list=[1, 2, 'a', 'b', 'Modified']
-print('Mutable: ', mutable_list)
+print('Mutable List: ', mutable_list)
 mutable_list [0]= 9
-print('Mutable: ', mutable_list)
+print('Mutable list: ', mutable_list)
